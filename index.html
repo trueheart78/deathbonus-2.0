@@ -26,12 +26,15 @@ var inputTextValue;
 
 function relocate(chat, subscribe) {
   var channelName = document.getElementById('channelName').value.toLowerCase()
+  if (channelName == "") {
+    channelName = "dexbonus"
+  }
   if (chat == true) {
     window.location = "https://www.twitch.tv/"+channelName+"/chat?no-mobile-redirect=true"
   } else if(subscribe) {
     window.location = "https://www.twitch.tv/subs/"+channelName
   } else {
-    window.location = "https://m.twitch.tv/"+channelName
+    window.location = "http://go.twitch.tv/"+channelName
   }
 }
 
@@ -47,10 +50,10 @@ function keyup(e) {
   </head>
   <body>
     <div align="center">
-      <input id="channelName" value="dexbonus"><br />
-      <button type="button" class="btn btn-primary" onclick="relocate(false, false)">Watch Stream</button><br />
-      <button type="button" class="btn btn-info" onclick="relocate(true, false)">Join Chat</button><br />
-      <button type="button" class="btn btn-success" onclick="relocate(false, true)">Subscribe</button>
+      <input id="channelName" placeholder="dexbonus"><br />
+      <button type="button" class="btn btn-success" onclick="relocate(false, true)">Subscribe</button><br />
+      <button type="button" class="btn btn-danger" onclick="relocate(true, false)">Chat</button><br />
+      <button type="button" class="btn btn-primary" onclick="relocate(false, false)">Watch</button>
     </div>
   </body>
 </html>
