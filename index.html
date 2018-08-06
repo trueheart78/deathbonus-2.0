@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>go.deathbon.us</title>
+    <!--<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style type="text/css">
+body {
+  background-image: url("assets/smile-1280x710.png");
+  background-position: 50% 0%;
+  background-repeat: repeat;
+}
+input, button {
+  width: 300px;
+  margin-top: 5px;
+}
+
+input {
+  text-align: center;
+}
+    </style>
+    <script type="text/javascript">
+var inputTextValue;
+
+function relocate() {
+  var channelName = document.getElementById('channelName').value.toLowerCase()
+  window.location = "https://www.twitch.tv/"+channelName+"?no-mobile-redirect=true"
+}
+
+//creates a listener for when you press a key
+window.onkeyup = keyup;
+
+function keyup(e) {
+  inputTextValue = e.target.value
+
+  if (e.keyCode == 13) {
+    relocate()
+  }
+}
+    </script>
+  </head>
+  <body>
+    <div align="center">
+      <input id="channelName" value="dexbonus"><br />
+      <button type="button" class="btn btn-primary" onclick="relocate()">Watch Stream</button>
+    </div>
+  </body>
+</html>
