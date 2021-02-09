@@ -11,7 +11,7 @@ that would allow a viewer to perform the following actions outside of the instal
 * Chatting via browser.
 * Watch via application (if installed), otherwise it will load in the browser.
 
-You can also specify the stream, the default is `[dexbonus][dexbonus-twitch]`.
+You can also specify the stream, the default is [dexbonus][dexbonus-twitch].
 
 ![dodger](assets/tell-me.gif)
 
