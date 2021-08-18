@@ -1,6 +1,6 @@
 # Go, Deathbonus
 
-[Dexbonus][dexbonus-twitter]-related, JS-powered twitch-related redirector.
+[Dexbonus][dexbonus-twitter]-related, JS-powered, twitch-related redirector.
 
 ## Use Cases
 
