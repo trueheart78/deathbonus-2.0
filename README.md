@@ -1,6 +1,6 @@
 # Go, Deathbonus
 
-[Dexbonus][dexbonus-twitter]-related, JS-powered, twitch-related redirector.
+[Dexbonus][dexbonus-twitter]-related Twitch-related redirector.
 
 ## Use Cases
 
@@ -13,7 +13,7 @@ that would allow a viewer to perform the following actions outside of the instal
 
 You can also specify the stream, the default is [dexbonus][dexbonus-twitch].
 
-![dodger](site/assets/tell-me.gif)
+![dodger](site/assets/images/gifs/tell-me.gif)
 
 [dexbonus-twitter]: https://twitter.com/dexbonus
 [dexbonus-twitch]: https://twitch.tv/dexbonus
