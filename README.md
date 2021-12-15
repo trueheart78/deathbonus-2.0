@@ -13,7 +13,7 @@ that would allow a viewer to perform the following actions outside of the instal
 
 You can also specify the stream, the default is [dexbonus][dexbonus-twitch].
 
-![dodger](assets/tell-me.gif)
+![dodger](site/assets/tell-me.gif)
 
 [dexbonus-twitter]: https://twitter.com/dexbonus
 [dexbonus-twitch]: https://twitch.tv/dexbonus
