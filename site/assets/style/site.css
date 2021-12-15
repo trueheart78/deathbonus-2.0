@@ -1,0 +1,13 @@
+body {
+  background-image: url("/assets/images/backgrounds/smile-1280x710.png");
+  background-position: 50% 0%;
+  background-repeat: repeat;
+}
+input, button {
+  width: 300px;
+  margin-top: 5px;
+}
+
+input {
+  text-align: center;
+}
