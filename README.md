@@ -1,6 +1,6 @@
 # Go, Deathbonus
 
-[Dexbonus][dexbonus-twitter]-related Twitch-related redirector.
+Mobile Twitch navigator, [Dexbonus][dexbonus-twitter]-themed.
 
 ## Use Cases
 
