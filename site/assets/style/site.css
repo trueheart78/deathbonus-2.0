@@ -70,6 +70,12 @@ input {
 /* Custom buttons with similar Bootstrap 5 names. */
 .btn-purple, .btn-twitch {
   color: #fff;
-  background-color: #9146FF;
-  border-color: #9146FF;
+  background-color: #9146ff;
+  border-color: #9146ff;
+}
+
+.btn-red-orange {
+  color: #fff;
+  background-color: #fa4616;
+  border-color: #fa4616;
 }
