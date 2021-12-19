@@ -1,5 +1,5 @@
 function relocate(chat, subscribe) {
-  const channelName = document.getElementById("channelName").value.toLowerCase();
+  let channelName = document.getElementById("channelName").value.toLowerCase();
   if (channelName == "") {
     channelName = "dexbonus";
   }
