@@ -13,4 +13,9 @@ function relocate(chat, subscribe) {
 }
 
 //creates a listener for when you press a key
-window.onkeyup = e => if (e.keyCode == 13) { relocate() }
+window.onkeyup = keyup;
+function keyup(e) {
+  if (e.keyCode == 13) {
+    relocate()
+  }
+}
