@@ -63,3 +63,9 @@ input {
   background-color: #212529;
   border-color: #212529;
 }
+
+.btn-purple, .btn-twitch {
+  color: #fff;
+  background-color: #9146FF;
+  border-color: #9146FF;
+}
