@@ -13,6 +13,9 @@ input {
   text-align: center;
 }
 
+.btn-short {
+  width: 147px;
+}
 /* Bootstrap 5 Button Colors with extra names! */
 /* Since we're using SimpleCSS, these need to be defined. */
 
@@ -64,6 +67,7 @@ input {
   border-color: #212529;
 }
 
+/* Custom buttons with similar Bootstrap 5 names. */
 .btn-purple, .btn-twitch {
   color: #fff;
   background-color: #9146FF;
