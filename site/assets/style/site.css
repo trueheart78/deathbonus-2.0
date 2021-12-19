@@ -80,6 +80,12 @@ input {
   border-color: #772Ce8;
 }
 
+.btn-light-grey {
+  color: #fff;
+  background-color: #e5e5e5;
+  border-color: #e5e5e5;
+}
+
 .btn-red-orange {
   color: #fff;
   background-color: #fa4616;
